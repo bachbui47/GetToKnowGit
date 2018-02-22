@@ -1,0 +1,121 @@
+
+.header,.footer {
+	display: grid;
+	border: 3px solid orange;
+	background-color: green;
+	text-align: center;
+	margin: 20px 20px;
+	height: 100px;
+}
+#VFirst, #VnotFirst {
+	font-size: 50px;
+	padding: 2px 2px;
+	font-family: Arial;
+	color: Cyan;
+	margin-top: 20px;
+}
+.grid-parent {
+	display: flex;
+	}
+body {
+	font-family: Helvetica, Arial, sans-serid;
+	background-image: url("D:/File and shit/piccom/)).png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center; 
+}
+/* Box 1 */
+.grid-container1 {
+	flex: 1;
+	font-family: Helvetica;
+	color: black;
+	background-color: gray;
+	margin: 5px;
+	float: left;
+	height: auto;
+	position: relative;
+	display: inline-grid;
+	border: 3px solid;
+	padding: 20px;
+	grid-row-gap: 10px; 
+}
+.grid-item1 {
+	background-color: darkcyan;
+	border: 1px solid;
+	}
+/* Ran out */
+#special {
+	color: #f6f6f6;
+	background-color: #107422;
+	max-width: 100%;
+	}
+/* All the paragraphs */
+p {
+	padding: 1px 8px;
+}
+/* All the h2s and prob */	
+h2, h1{
+	border-style: groove;
+	border-width: 2px 0px;
+	background-color: cyan;
+	position: relative;
+	text-align: center;	
+}
+/* All the pictures */
+img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+button {
+	margin-top: 20px;
+	background-color: red;
+}
+/* Box 2 */	
+#topic2 {
+	background-color: lightcoral;
+}
+.grid-container2 {
+	font-family: Helvetica;
+	color: black;
+	background-color: dimgray;
+	width: 500px;
+	height: auto;
+	margin: 5px;
+	float: right;
+	border: 3px solid;
+	padding: 20px;
+	grid-row-gap: 10px; 
+}
+.grid-item2 {
+	background-color: indianred;
+	border: 1px solid;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+   list-style: none;
+   float: right;
+   width: 300px;
+
+hover:click;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+	float: right;
+}
+.grid-container3 {
+	display: inline-block;
+	background-color: gray;
+	border: 2px solid;
+	max-width:1000px;
+	height: auto;
+	margin: 5px;
+}
